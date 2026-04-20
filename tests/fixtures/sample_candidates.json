@@ -1,0 +1,221 @@
+{
+  "preferences": {
+    "max_drive_hours": 5,
+    "preferred_azimuth_deg": 150,
+    "azimuth_tolerance_deg": 30,
+    "weights": {
+      "weather": 30,
+      "darkness": 20,
+      "moon": 20,
+      "composition": 20,
+      "logistics": 10
+    }
+  },
+  "candidates": [
+    {
+      "name": "Example Ridge",
+      "region": "Example Province",
+      "latitude": 31.234,
+      "longitude": 121.456,
+      "shooting_window_start_local": "2026-05-16T22:30:00+08:00",
+      "shooting_window_end_local": "2026-05-17T01:30:00+08:00",
+      "moonrise_local": "2026-05-17T03:08:00+08:00",
+      "moonset_local": "2026-05-16T17:10:00+08:00",
+      "moon_below_horizon_during_window": true,
+      "moon_window_status": "pass",
+      "moon_overlap_ratio": 0.0,
+      "retrieved_at_local": "2026-05-15T18:20:00+08:00",
+      "weather_data_kind": "forecast",
+      "weather_requirement_status": "pass",
+      "cloud_cover_pct": 18,
+      "humidity_pct": 42,
+      "visibility_km": 28,
+      "smoke_risk_score": 10,
+      "haze_risk_score": 20,
+      "forecast_confidence": 0.82,
+      "light_pollution_bortle": 3,
+      "sqm": null,
+      "elevation_m": 1480,
+      "city_glow_direction": "northwest",
+      "city_glow_severity_score": 25,
+      "milky_way_core_altitude_deg": 21,
+      "milky_way_core_azimuth_deg": 156,
+      "astronomical_dark_hours": 4.6,
+      "horizon_clearance_score": 88,
+      "drive_hours": 3.2,
+      "access_score": 80,
+      "safety_score": 84,
+      "parking_risk_score": 20,
+      "walking_risk_score": 15,
+      "notes": "South-southeast horizon is open. Wind shelter is limited.",
+      "sources_by_metric": {
+        "weather": [
+          {
+            "label": "meteoblue 7-day forecast",
+            "url": "https://www.meteoblue.com/",
+            "retrieved_at_local": "2026-05-15T18:10:00+08:00"
+          }
+        ],
+        "moon": [
+          {
+            "label": "timeanddate moonrise/moonset",
+            "url": "https://www.timeanddate.com/moon/",
+            "retrieved_at_local": "2026-05-15T18:12:00+08:00"
+          }
+        ],
+        "milky_way": [
+          {
+            "label": "airmass planner",
+            "url": "https://airmass.org/",
+            "retrieved_at_local": "2026-05-15T18:14:00+08:00"
+          }
+        ],
+        "light_pollution": [
+          {
+            "label": "Light Pollution Map",
+            "url": "https://www.lightpollutionmap.info/",
+            "retrieved_at_local": "2026-05-15T18:15:00+08:00"
+          }
+        ],
+        "access_safety": [
+          {
+            "label": "Map page",
+            "url": "https://example.com/ridge",
+            "retrieved_at_local": "2026-05-15T18:18:00+08:00"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Desert Overlook",
+      "region": "Example Basin",
+      "latitude": 36.111,
+      "longitude": 101.222,
+      "shooting_window_start_local": "2026-05-16T22:00:00+08:00",
+      "shooting_window_end_local": "2026-05-17T01:00:00+08:00",
+      "moonrise_local": "2026-05-16T23:30:00+08:00",
+      "moonset_local": "2026-05-17T04:10:00+08:00",
+      "retrieved_at_local": "2026-05-15T18:40:00+08:00",
+      "weather_data_kind": "forecast",
+      "weather_requirement_status": "pass",
+      "cloud_cover_pct": 24,
+      "humidity_pct": 36,
+      "visibility_km": 31,
+      "smoke_risk_score": 35,
+      "haze_risk_score": 25,
+      "forecast_confidence": 68,
+      "light_pollution_bortle": null,
+      "sqm": 21.4,
+      "elevation_m": 2150,
+      "city_glow_direction": "north",
+      "city_glow_severity_score": 15,
+      "milky_way_core_altitude_deg": 24,
+      "milky_way_core_azimuth_deg": 149,
+      "astronomical_dark_hours": 5.2,
+      "horizon_clearance_score": 92,
+      "drive_hours": 4.8,
+      "access_score": 3.5,
+      "safety_score": 4,
+      "parking_risk_score": 65,
+      "walking_risk_score": 55,
+      "notes": "Very dark southern horizon, but a late moonrise trims the usable window.",
+      "sources_by_metric": {
+        "weather": [
+          {
+            "label": "meteoblue 7-day forecast",
+            "url": "https://www.meteoblue.com/",
+            "retrieved_at_local": "2026-05-15T18:32:00+08:00"
+          }
+        ],
+        "moon": [
+          {
+            "label": "timeanddate moonrise/moonset",
+            "url": "https://www.timeanddate.com/moon/",
+            "retrieved_at_local": "2026-05-15T18:34:00+08:00"
+          }
+        ],
+        "milky_way": [
+          {
+            "label": "airmass planner",
+            "url": "https://airmass.org/",
+            "retrieved_at_local": "2026-05-15T18:36:00+08:00"
+          }
+        ],
+        "light_pollution": [
+          {
+            "label": "Light Pollution Map",
+            "url": "https://www.lightpollutionmap.info/",
+            "retrieved_at_local": "2026-05-15T18:37:00+08:00"
+          }
+        ],
+        "access_safety": []
+      }
+    },
+    {
+      "name": "Valley Edge",
+      "region": "Example Valley",
+      "latitude": 34.567,
+      "longitude": 104.321,
+      "shooting_window_start_local": "2026-05-16T22:00:00+08:00",
+      "shooting_window_end_local": "2026-05-17T01:30:00+08:00",
+      "moonrise_local": "2026-05-16T22:15:00+08:00",
+      "moonset_local": "2026-05-17T05:20:00+08:00",
+      "moon_window_status": "fail",
+      "retrieved_at_local": "2026-05-15T19:05:00+08:00",
+      "weather_data_kind": "near-realtime",
+      "weather_requirement_status": "pass",
+      "cloud_cover_pct": 12,
+      "humidity_pct": 48,
+      "visibility_km": 19,
+      "smoke_risk_score": 80,
+      "haze_risk_score": 70,
+      "forecast_confidence": 0.55,
+      "light_pollution_bortle": 4,
+      "sqm": null,
+      "elevation_m": 980,
+      "city_glow_direction": "southeast",
+      "city_glow_severity_score": 78,
+      "milky_way_core_altitude_deg": 19,
+      "milky_way_core_azimuth_deg": 162,
+      "astronomical_dark_hours": 4.1,
+      "horizon_clearance_score": 75,
+      "drive_hours": 2.4,
+      "access_score": 85,
+      "safety_score": 78,
+      "parking_risk_score": 2,
+      "walking_risk_score": 4,
+      "notes": "Easy roadside pull-off, but the moon stays up during almost the whole window.",
+      "sources_by_metric": {
+        "weather": [],
+        "moon": [
+          {
+            "label": "timeanddate moonrise/moonset",
+            "url": "https://www.timeanddate.com/moon/",
+            "retrieved_at_local": "2026-05-15T19:00:00+08:00"
+          }
+        ],
+        "milky_way": [
+          {
+            "label": "Stellarium Web",
+            "url": "https://stellarium-web.org/",
+            "retrieved_at_local": "2026-05-15T19:01:00+08:00"
+          }
+        ],
+        "light_pollution": [
+          {
+            "label": "Light Pollution Map",
+            "url": "https://www.lightpollutionmap.info/",
+            "retrieved_at_local": "2026-05-15T19:02:00+08:00"
+          }
+        ],
+        "access_safety": [
+          {
+            "label": "Map page",
+            "url": "https://example.com/valley-edge",
+            "retrieved_at_local": "2026-05-15T19:03:00+08:00"
+          }
+        ]
+      }
+    }
+  ]
+}

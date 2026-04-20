@@ -1,0 +1,4 @@
+interface:
+  display_name: "Milky Way Scout"
+  short_description: "Research and rank Milky Way photo spots"
+  default_prompt: "Use $milky-way-spot-scout to compare Milky Way photography locations with real-time weather, moon-window gating, and auditable score breakdowns."
